@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grow With Me - 150,000+ Reels Bundle - 85% OFF Limited Offer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #8B0000 0%, #B22222 25%, #DC143C 50%, #B22222 75%, #8B0000 100%);
+            background-size: 400% 400%;
+            animation: gradientShift 15s ease infinite;
+            position: relative;
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+
+        @keyframes gradientShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: 
+                radial-gradient(2px 2px at 10% 20%, rgba(255,255,255,0.8), transparent),
+                radial-gradient(2px 2px at 90% 80%, rgba(255,255,255,0.6), transparent),
+                radial-gradient(1px 1px at 50% 50%, rgba(255,255,255,0.4), transparent),
+                radial-gradient(2px 2px at 80% 10%, rgba(255,215,0,0.6), transparent),
+                radial-gradient(1px 1px at 20% 80%, rgba(255,255,255,0.5), transparent);
+            background-size: 100% 100%;
+            animation: sparkle 4s ease-in-out infinite;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        @keyframes sparkle {
+            0%, 100% { opacity: 0.4; }
+            50% { opacity: 1; }
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .top-banner {
+            background: linear-gradient(90deg, #FFD700 0%, #FFA500 50%, #FFD700 100%);
+            background-size: 200% 100%;
+            animation: bannerShine 3s linear infinite;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+            margin-bottom: 30px;
+            border-radius: 15px;
+            position: relative;
+            overflow: hidden;
+            border: 3px solid #FF6B00;
+        }
+
+        @keyframes bannerShine {
+            0% { background-position: 0% 0%; }
+            100% { background-position: 200% 0%; }
+        }
+
+        .top-banner::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.6) 50%, transparent 70%);
+            animation: diagonalShine 3s infinite;
+        }
+
+        @keyframes diagonalShine {
+            0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+            100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+        }
+
+        .top-banner h1 {
+            font-size: 3em;
+            color: #8B0000;
+            font-weight: 900;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+            position: relative;
+            z-index: 1;
+            letter-spacing: 2px;
+        }
+
+        .discount-text {
+            font-size: 4em;
+            color: #8B0000;
+            font-weight: 900;
+            margin-top: 10px;
+            text-shadow: 4px 4px 8px rgba(0,0,0,0.4);
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 40px 20px;
+            margin-bottom: 40px;
+        }
+
+        .main-heading {
+            font-size: 6em;
+            color: #FFFFFF;
+            font-weight: 900;
+            text-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+            line-height: 1.1;
+            margin-bottom: 20px;
+            letter-spacing: 3px;
+        }
+
+        .main-heading .yellow {
+            color: #FFD700;
+            text-shadow: 5px 5px 15px rgba(0,0,0,0.7), 0 0 30px #FFD700;
+        }
+
+        .subheading {
+            font-size: 2.2em;
+            color: #FFFFFF;
+            font-weight: 700;
+            margin-bottom: 15px;
+            text-shadow: 3px 3px 10px rgba(0,0,0,0.6);
+        }
+
+        .platform-text {
+            font-size: 1.8em;
+            color: #FFD700;
+            font-weight: 600;
+            margin-bottom: 40px;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+        }
+
+        .price-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+            padding: 30px 60px;
+            border-radius: 50%;
+            box-shadow: 0 0 40px rgba(255,215,0,0.8), 0 0 80px rgba(255,215,0,0.5);
+            animation: pulseBadge 2s ease-in-out infinite;
+            position: relative;
+            border: 5px solid #FF6B00;
+            margin: 30px 0;
+        }
+
+        @keyframes pulseBadge {
+            0%, 100% { transform: scale(1); box-shadow: 0 0 40px rgba(255,215,0,0.8), 0 0 80px rgba(255,215,0,0.5); }
+            50% { transform: scale(1.1); box-shadow: 0 0 60px rgba(255,215,0,1), 0 0 120px rgba(255,215,0,0.7); }
+        }
+
+        .price-badge::before {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            border-radius: 50%;
+            border: 3px dashed #FFD700;
+            animation: rotateBorder 20s linear infinite;
+        }
+
+        @keyframes rotateBorder {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .price-badge .only-text {
+            font-size: 1.8em;
+            color: #8B0000;
+            font-weight: 700;
+            display: block;
+        }
+
+        .price-badge .price {
+            font-size: 4.5em;
+            color: #8B0000;
+            font-weight: 900;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+        }
+
+        .original-price {
+            font-size: 2em;
+            color: #FFFFFF;
+            text-decoration: line-through;
+            margin-top: 15px;
+            opacity: 0.9;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+        }
+
+        .whats-included {
+            background: rgba(0,0,0,0.4);
+            padding: 50px 30px;
+            border-radius: 20px;
+            margin: 40px 0;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+            border: 2px solid rgba(255,215,0,0.3);
+        }
+
+        .section-title {
+            font-size: 3.5em;
+            color: #FFD700;
+            font-weight: 900;
+            text-align: center;
+            margin-bottom: 40px;
+            text-shadow: 3px 3px 10px rgba(0,0,0,0.7);
+        }
+
+        .reels-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .reel-item {
+            display: flex;
+            align-items: center;
+            font-size: 1.3em;
+            color: #FFFFFF;
+            font-weight: 600;
+            padding: 15px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .reel-item:hover {
+            background: rgba(255,215,0,0.2);
+            transform: translateX(10px);
+        }
+
+        .reel-item::before {
+            content: '✓';
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background: #FFD700;
+            color: #8B0000;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            margin-right: 15px;
+            font-weight: 900;
+            flex-shrink: 0;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 30px;
+            box-shadow: 0 8px 25px rgba(255,215,0,0.4);
+        }
+
+        .highlight-box h3 {
+            font-size: 2.5em;
+            color: #8B0000;
+            font-weight: 900;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .where-to-use {
+            background: rgba(0,0,0,0.4);
+            padding: 50px 30px;
+            border-radius: 20px;
+            margin: 40px 0;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+            border: 2px solid rgba(255,215,0,0.3);
+        }
+
+        .platforms {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 40px;
+            margin: 30px 0;
+        }
+
+        .platform-icon {
+            text-align: center;
+            padding: 20px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 15px;
+            min-width: 150px;
+            transition: all 0.3s ease;
+        }
+
+        .platform-icon:hover {
+            background: rgba(255,215,0,0.2);
+            transform: translateY(-10px);
+        }
+
+        .platform-icon .icon {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        .platform-icon .name {
+            font-size: 1.3em;
+            color: #FFFFFF;
+            font-weight: 700;
+        }
+
+        .features-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: center;
+            font-size: 1.4em;
+            color: #FFFFFF;
+            font-weight: 600;
+            padding: 15px;
+            background: rgba(255,215,0,0.15);
+            border-radius: 10px;
+        }
+
+        .feature-item::before {
+            content: '✓';
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background: #FFD700;
+            color: #8B0000;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            margin-right: 15px;
+            font-weight: 900;
+            flex-shrink: 0;
+        }
+
+        .pricing-section {
+            background: rgba(0,0,0,0.5);
+            padding: 60px 30px;
+            border-radius: 20px;
+            margin: 40px 0;
+            text-align: center;
+            box-shadow: 0 15px 50px rgba(0,0,0,0.6);
+            border: 3px solid #FFD700;
+        }
+
+        .bundle-name {
+            font-size: 3em;
+            color: #FFD700;
+            font-weight: 900;
+            margin-bottom: 20px;
+            text-shadow: 3px 3px 10px rgba(0,0,0,0.7);
+        }
+
+        .pricing-details {
+            font-size: 2.5em;
+            color: #FFFFFF;
+            margin: 20px 0;
+            font-weight: 700;
+        }
+
+        .worth-text {
+            text-decoration: line-through;
+            color: #FF6B6B;
+            font-size: 0.8em;
+        }
+
+        .today-price {
+            color: #FFD700;
+            font-size: 1.3em;
+            margin: 15px 0;
+        }
+
+        .savings {
+            color: #00FF00;
+            font-size: 1.1em;
+            font-weight: 900;
+        }
+
+        .urgency-text {
+            background: linear-gradient(90deg, #FF0000 0%, #FF6B00 100%);
+            color: #FFFFFF;
+            padding: 20px;
+            border-radius: 10px;
+            font-size: 1.8em;
+            font-weight: 700;
+            margin-top: 30px;
+            animation: urgencyPulse 2s ease-in-out infinite;
+            box-shadow: 0 5px 20px rgba(255,0,0,0.5);
+        }
+
+        @keyframes urgencyPulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
+        }
+
+        .buy-button-section {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .buy-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+            color: #8B0000;
+            font-size: 2.5em;
+            font-weight: 900;
+            padding: 25px 80px;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 10px 40px rgba(255,215,0,0.6);
+            transition: all 0.3s ease;
+            border: 4px solid #FF6B00;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            animation: buttonGlow 2s ease-in-out infinite;
+        }
+
+        @keyframes buttonGlow {
+            0%, 100% { box-shadow: 0 10px 40px rgba(255,215,0,0.6); }
+            50% { box-shadow: 0 10px 60px rgba(255,215,0,1), 0 0 100px rgba(255,215,0,0.8); }
+        }
+
+        .buy-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 15px 60px rgba(255,215,0,1);
+        }
+
+        .buy-button::before {
+            content: '👉 ';
+        }
+
+        .footer {
+            background: rgba(0,0,0,0.7);
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 60px;
+            border-top: 3px solid #FFD700;
+        }
+
+        .footer .brand {
+            font-size: 2.5em;
+            color: #FFD700;
+            font-weight: 900;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+        }
+
+        .footer .tagline {
+            font-size: 1.5em;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+        }
+
+        .footer .copyright {
+            font-size: 1.1em;
+            color: #CCCCCC;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .top-banner h1 { font-size: 1.8em; }
+            .discount-text { font-size: 2.5em; }
+            .main-heading { font-size: 3.5em; }
+            .subheading { font-size: 1.5em; }
+            .platform-text { font-size: 1.2em; }
+            .price-badge { padding: 20px 40px; }
+            .price-badge .price { font-size: 3em; }
+            .section-title { font-size: 2.5em; }
+            .reel-item { font-size: 1.1em; }
+            .buy-button { font-size: 1.8em; padding: 20px 50px; }
+            .bundle-name { font-size: 2em; }
+            .pricing-details { font-size: 1.8em; }
+        }
+
+        @media (max-width: 480px) {
+            .top-banner h1 { font-size: 1.3em; }
+            .discount-text { font-size: 1.8em; }
+            .main-heading { font-size: 2.5em; }
+            .subheading { font-size: 1.2em; }
+            .reels-grid { grid-template-columns: 1fr; }
+            .buy-button { font-size: 1.5em; padding: 15px 40px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top-banner">
+            <h1>LIMITED TIME OFFER!</h1>
+            <div class="discount-text">85% OFF</div>
+        </div>
+
+        <div class="hero">
+            <h1 class="main-heading">
+                150,000+<br>
+                <span class="yellow">REELS BUNDLE</span>
+            </h1>
+            <p class="subheading">NON COPYRIGHT</p>
+            <p class="platform-text">YT ♦ INSTA ♦ FB</p>
+
+            <div class="price-badge">
+                <span class="only-text">ONLY</span>
+                <div class="price">Rs149</div>
+            </div>
+            <p class="original-price">Worth ₹999</p>
+        </div>
+
+        <div class="whats-included">
+            <h2 class="section-title">WHAT'S INCLUDED</h2>
+            <div class="reels-grid">
+                <div class="reel-item">AI Motivational Reels</div>
+                <div class="reel-item">Simple Motivational Reels</div>
+                <div class="reel-item">Luxury Car Reels</div>
+                <div class="reel-item">Comedy Reels</div>
+                <div class="reel-item">Gym Reels</div>
+                <div class="reel-item">AI Fitness Reels</div>
+                <div class="reel-item">Space Universe Reels</div>
+                <div class="reel-item">Nature Beauty Reels</div>
+                <div class="reel-item">Emotion Reels</div>
+                <div class="reel-item">Omega Video Reels</div>
+                <div class="reel-item">ISLAMIC Urdu Reels</div>
+                <div class="reel-item">AI Doctor Reels</div>
+                <div class="reel-item">AI Teacher Reels</div>
+                <div class="reel-item">2D Animation Reels</div>
+                <div class="reel-item">Shark Tank Reels</div>
+                <div class="reel-item">Editable Viral Reels</div>
+                <div class="reel-item">5+ Canva Templates</div>
+                <div class="reel-item">Big Boss Reels</div>
+                <div class="reel-item">Podcast Hooks Reels</div>
+                <div class="reel-item">AI Business Reels</div>
+                <div class="reel-item">Art Reels</div>
+                <div class="reel-item">Kapil Sharma Reels</div>
+                <div class="reel-item">AI Health Reels</div>
+                <div class="reel-item">AI Avatar Reels Crafts</div>
+                <div class="reel-item">Reels Quotes</div>
+                <div class="reel-item">Paid Courses</div>
+                <div class="reel-item">PDF Business Books 20+</div>
+            </div>
+            
+            <div class="highlight-box">
+                <h3>150,000+ Ready-to-Post Viral Reels Included!</h3>
+            </div>
+        </div>
+
+        <div class="where-to-use">
+            <h2 class="section-title">WHERE CAN YOU USE THESE REELS?</h2>
+            
+            <div class="platforms">
+                <div class="platform-icon">
+                    <div class="icon">📱</div>
+                    <div class="name">YouTube Shorts</div>
+                </div>
+                <div class="platform-icon">
+                    <div class="icon">📸</div>
+                    <div class="name">Instagram Reels</div>
+                </div>
+                <div class="platform-icon">
+                    <div class="icon">👍</div>
+                    <div class="name">Facebook Reels</div>
+                </div>
+                <div class="platform-icon">
+                    <div class="icon">💼</div>
+                    <div class="name">Business Pages</div>
+                </div>
+                <div class="platform-icon">
+                    <div class="icon">💰</div>
+                    <div class="name">Monetization</div>
+                </div>
+                <div class="platform-icon">
+                    <div class="icon">🎨</div>
+                    <div class="name">Theme Pages</div>
+                </div>
+            </div>
+
+            <div class="features-list">
+                <div class="feature-item">Viral Reels for YT, Instagram & Facebook</div>
+                <div class="feature-item">Trending, Editable & Unique Reels</div>
+                <div class="feature-item">5+ Editable Canva Templates</div>
+                <div class="feature-item">100% Free & Ready-to-Use!</div>
+            </div>
+        </div>
+
+        <div class="pricing-section">
+            <h2 class="bundle-name">Grow With Me Mega Reels Bundle</h2>
+            <div class="pricing-details">
+                <span class="worth-text">Worth ₹999</span>
+            </div>
+            <div class="pricing-details">
+                <span class="today-price">Today Only: ₹149</span>
+            </div>
+            <div class="pricing-details">
+                <span class="savings">You Save 85%</span>
+            </div>
+            
+            <div class="urgency-text">
+                ⚡ Limited Time Offer – Price May Increase Soon! ⚡
+            </div>
+        </div>
+
+        <div class="buy-button-section">
+            <a href="https://www.instagram.com/grow.with.me.digital?igsh=MWs0b3I5bHM2c2treg==" target="_blank" class="buy-button">BUY NOW – ENQUIRE ON INSTAGRAM</a>
+        </div>
+
+        <div class="footer">
+            <div class="brand">Grow With Me</div>
+            <div class="tagline">Helping You Grow Faster on Social Media 🚀</div>
+            <div class="copyright">© 2026 Grow With Me. All Rights Reserved.</div>
+        </div>
+    </div>
+</body>
+</html>
